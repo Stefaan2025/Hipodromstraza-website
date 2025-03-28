@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 50px;
+}
+
+h1 {
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#myImage {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#myImage.show {
+    opacity: 1;
+}
+
+#text {
+    color: blue;  /* Сини букви */
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    display: none;  /* Се крие текстот по дефиниција */
+}
